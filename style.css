@@ -1,0 +1,496 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    }
+  
+.container {
+    width: auto;
+    max-width: auto;
+    margin: auto;
+}
+
+.navwid{
+  width: 90%;
+  max-width: auto;
+  margin: auto;
+}
+
+/* Navbar */
+.main-navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.main-navbar .logo {
+    width: 110px;
+  }
+
+
+.main-navbar ul{
+    display: flex;
+}
+
+.main-navbar ul li {
+    padding: 0 10px;
+  }
+
+  .main-nav ul li a {
+    padding-bottom: 2px;
+  }
+
+.main-navbar ul li a:hover {
+    border-bottom: 2px solid #262626;
+}
+
+.main-navbar ul.main-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #0067b8;
+    color: #fff;
+    font-size: 15px;;
+  }
+
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .show {
+    width: 100%;
+    height: 500px;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1920x600') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }
+
+
+  .show h2 {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: inherit;
+    line-height: 1.2;
+    margin-right: 370px;
+    margin-bottom: 25px;
+
+
+  }
+
+  .show p{
+    margin-right: 170px;
+  }
+  
+  .show .btn {
+    margin-right: 440px;
+    margin-top: 20px;
+  }
+
+
+  .menu{
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+    display: none;
+  }
+
+  /* First Section */
+.products{
+  width: 60%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.products div a{
+  color: #0067b8;
+  font-weight: 600;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.products div{
+  padding-top: 90px;
+  padding-left: 20px;
+  width: 120px;
+  text-align: center;
+}
+
+
+.secondseccont{
+  width: 90%;
+  max-width: auto;
+  margin: auto;
+}
+
+/* Cards */
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-top: 20px;
+}
+
+.cards img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cards h3{
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cards a{
+  display: inline-block;
+  padding-top: 10px;
+  text-transform: uppercase;
+  color: #0067b8;
+  font-weight: bold;
+}
+
+.cards a:hover{
+  border-bottom: 2px solid #0067b8;
+}
+.cards a:hover i{
+  margin-left: 10px
+}
+
+.addcontainer{
+  width: 90%;
+  max-width: auto;
+  margin: auto;
+}
+
+/* Windows11 */
+.windows11{
+  width: 100%;
+  height: 500px;
+  background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1596x600') no-repeat center center/cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.windows11 .content{
+  width: 50px;
+  padding: 150px 0;
+}
+
+.windows11 .content h2{
+  white-space: nowrap;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.windows11 .content p{
+  margin-left: 100px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.windows11 .content a{
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.windows11 .content .btn{
+  white-space: nowrap;
+  margin-left: 100px;
+  background-color: #0067b8;
+  color: white;
+  margin-top: 10px;
+}
+
+.followcontainer{
+  width: 90%;
+  max-width: auto;
+  margin: auto;
+}
+
+/* Follow */
+.follow{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  
+}
+
+.follow *{
+  margin-right: 20px;
+
+}
+
+/* Links */
+.links {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 35px 0;
+}
+
+.links-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.links li {
+  line-height: 2.8;
+}
+
+/* Footer */
+.footer {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer div {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer div i {
+  margin-right: 10px;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer li {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/* media queries*/
+
+@media(max-width: 860px){
+  .products{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .links-inner{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .menu{
+    display: block;
+  }
+
+  .show {
+    width: 100%;
+    height: 50%;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP3-1083x600') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 70%;
+    margin-bottom: auto;
+  }
+
+  .show .btn{
+    display: none;
+  }
+
+  .show h2{
+    display: none;
+  }
+
+  .show p{
+    display: none;
+  }
+
+  .main-navbar .main-menu{
+    display: none;
+  }
+
+  .right-menu span{
+    display: none;
+  }
+
+  .main-navbar{
+    padding-left: 240px;
+  }
+
+  .right-menu i{
+    display: none;
+  }
+  .content h2{
+    display: none;
+  }
+  .content p{
+    display: none;
+  }
+  .content .btn{
+    display: none;
+  }
+
+  .windows11{
+    width: 100%;
+    height: 50%;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP3-1083x600') no-repeat center center/cover;
+    padding-bottom: 20%;
+    margin: none;
+  }
+
+  .footer .footer-inner {
+    display: block;
+  }
+
+
+}
+
+@media(max-width: 540px){
+  .products{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .links-inner{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .links-inner ul{
+    margin-bottom: 30px;
+  }
+
+  .menu{
+    display: block;
+  }
+
+
+  .show {
+    width: 100%;
+    height: 50%;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP2-859x540') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 70%;
+    margin-bottom: auto;
+  }
+
+  .show .btn{
+    display: none;
+  }
+
+  .show h2{
+    display: none;
+  }
+
+  .show p{
+    display: none;
+  }
+
+
+  .main-navbar .main-menu{
+    display: none;
+  }
+
+  .right-menu span{
+    display: none;
+  }
+
+  .main-navbar{
+    padding-left: 150px;
+  }
+
+  .right-menu i{
+    display: none;
+  }
+
+  .content h2{
+    display: none;
+  }
+  .content p{
+    display: none;
+  }
+  .content .btn{
+    display: none;
+  }
+
+  .windows11{
+    width: 100%;
+    height: 50%;
+    background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP2-859x540') no-repeat center center/cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .footer .footer-inner {
+    display: block;
+  }
+  
+
+}
